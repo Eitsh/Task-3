@@ -26,8 +26,12 @@ class _MyAppState extends State<MyApp> {
                 height: 70,
               ),
               CircleAvatar(
-                radius: 60,
-                foregroundImage: AssetImage("assets/download.jpeg"),
+                radius: 65,
+                backgroundColor: Colors.lightBlue,
+                child: CircleAvatar(
+                  radius: 60,
+                  foregroundImage: AssetImage("assets/download.jpeg"),
+                ),
               ),
               const Text(
                 "Hosna",
@@ -91,4 +95,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
